@@ -1,4 +1,5 @@
-idade = 45
+print("Digite sua idade: ")
+idade = int(input())
 
 if idade < 15:
   print('Criança')
