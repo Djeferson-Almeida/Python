@@ -36,6 +36,10 @@ print(phone)
 import re
 frutas = re.compile('\d+\s\w+') # /s substitui espaço e \w substitui letras
 
-frutas.findall('10 maças, 7 peras, 5 bananas, 1 melancia')#Busca tudo que tem dígitos, espaços e letras
+frutas.findall('10 maçãs, 7 peras, 5 bananas, 1 melancia')#Busca tudo que tem dígitos, espaços e letras
 
+#re.I ignora minúsculas e maiúsculas na busca
+#Exemplo
+
+frutas = re.compile('Maçãs',re.I)
 
