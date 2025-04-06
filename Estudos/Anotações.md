@@ -43,3 +43,13 @@ frutas.findall('10 maçãs, 7 peras, 5 bananas, 1 melancia')#Busca tudo que tem 
 
 frutas = re.compile('Maçãs',re.I)
 
+#Exemplo de utilização do Python para ler arquivos
+
+with open 'PATH,instruction' #Instruções que podem ser utilizadas'r' -> ler(é padrão, não há necessidade de uso)  'w' -> escrever, 'a' -> adicionar
+
+#Funções que leem o texto:
+read()# Lê todo o texto do arquivo em uma só string
+readline()# -> Lê linha por linha retornando uma string
+readlines()# -> Lê todas as linhas do arquivo retornando uma lista de strings
+
+
